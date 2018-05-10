@@ -1,0 +1,1396 @@
+/* container */
+
+.colio-theme-white {
+    margin-right: 0px;
+}
+
+.colio-theme-white .colio-container {
+    background: #fff;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+.colio-theme-white.colio-placement-before {
+    margin-bottom: 0;
+}
+
+.colio-theme-white.colio-placement-before.colio-expanded {
+    margin-bottom: 20px;
+}
+
+/* colio close */
+
+.colio-theme-white .colio-close span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+}
+
+.colio-theme-white .colio-close {
+    position: absolute;
+    top: 96px;
+    right: 46px;
+}
+
+.colio-theme-white .colio-close span {
+    background: url(../images/controls.png) no-repeat -48px 0;
+}
+
+.colio-theme-white .colio-close:hover {
+    opacity: 0.8;
+}
+
+/* colio navigation */
+
+.colio-theme-white .colio-navigation {
+    position: absolute;
+    top: 90px;
+    right: 40%;
+    left: auto;
+    margin-right: -70px;
+}
+
+.colio-theme-white .colio-navigation span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+}
+
+.colio-theme-white .colio-navigation a {
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+    background: #0a0a0a;
+    border-radius: 100%;
+    -webkit-transition: background .1s;
+    -moz-transition: background .1s;
+    -o-transition: background .1s;
+    transition: background .1s;
+}
+
+.colio-theme-white .colio-navigation a:hover {
+    background: #ff5452;
+}
+
+.colio-theme-white .colio-prev span {
+    background: url(../images/controls.png) no-repeat 0 0;
+}
+
+.colio-theme-white .colio-next span {
+    background: url(../images/controls.png) no-repeat -24px 0;
+}
+
+.colio-theme-white .colio-no-prev,
+.colio-theme-white .colio-no-next {
+    background: #ccc !important;
+}
+
+/* content */
+
+.colio-theme-white .side {
+    float: left;
+    width: 60%;
+    padding-right: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.colio-theme-white .main {
+    float: left;
+    width: 40%;
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.colio-theme-white .main h3 {
+    font-size: 25px;
+}
+
+.colio-theme-white .main p {
+    line-height: 2em;
+    color: #8a8a8a
+}
+
+.colio-theme-white .main span {
+    font-weight: bold;
+    color: #0a0a0a
+}
+
+/* typography */
+
+.colio-theme-white {
+    color: #0a0a0a;
+}
+
+.colio-theme-white p {
+    line-height: 2em;
+}
+
+.colio-theme-white a,
+.colio-theme-white a:visited {
+    color: #ff5452;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.colio-theme-white a:hover {
+    color: #e44847;
+}
+
+.colio-theme-white .main h3 {
+    padding: 0;
+    margin: 70px 0 14px;
+    color: #0a0a0a;
+    text-align: left;
+    font-weight: bold;
+}
+
+.colio-theme-white .visit-link {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.colio-theme-white .visit-link:after {
+    content: "\2192";
+    position: relative;
+    top: -1px;
+    margin-left: 5px;
+}
+
+/* flexslider */
+
+.colio-theme-white .flexslider {
+    position: relative;
+    padding: 2px;
+    background: #fff;
+    border: 0px solid #F6F6F6;
+}
+
+.colio-theme-white .flexslider li {
+    padding: 0;
+    margin: 0;
+}
+
+.colio-theme-white .flex-control-nav {
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-top: 15px;
+}
+
+.colio-theme-white .flex-control-nav li {
+    float: left;
+    position: relative;
+    left: -50%;
+    margin: 0 5px;
+    line-height: 0;
+}
+
+.colio-theme-white .flex-control-nav a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #d2d2d2;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-indent: -9999px;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.colio-theme-white .flex-control-nav .flex-active {
+    background: #b6b6b6;
+}
+
+.colio-theme-white .flex-direction-nav .flex-prev,
+.colio-theme-white .flex-direction-nav .flex-next {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    text-indent: -9999px;
+    z-index: 10;
+}
+
+.flex-next {
+    top: 0;
+    right: 0;
+    background: url(../images/button-next-work-min.png) no-repeat right
+}
+
+.colio-theme-white .flex-direction-nav .flex-prev {
+    top: 0;
+    left: 0;
+    background: url(../images/button-previous-work-min.png) no-repeat left
+}
+
+.flex-next {
+    position: relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.flex-next :before {
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+/* Targets Retina Enabled Devices */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -moz-min-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+    .colio-theme-white .flex-direction-nav .flex-next {
+        background: url(../images/button-next-work@2x.svg) no-repeat right;
+        background-size: auto auto;
+    }
+    .colio-theme-white .flex-direction-nav .flex-prev {
+        background: url(../images/button-previous-work@2x.svg) no-repeat left;
+        background-size: auto auto;
+    }
+}
+
+/* social icons */
+
+.colio-theme-white .social {
+    width: 100%;
+    margin-bottom: 21px;
+    overflow: hidden;
+}
+
+.colio-theme-white .social li {
+    float: left;
+    margin: 0 7px 0 0;
+}
+
+.colio-theme-white .social a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+    opacity: 0.8;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    background-size: 24px 24px !important;
+}
+
+.colio-theme-white .social a:hover {
+    opacity: 1;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+.colio-theme-white .social .facebook {
+    background: url(../images/facebook.png) no-repeat center;
+}
+
+.colio-theme-white .social .google {
+    background: url(../images/google.png) no-repeat center;
+}
+
+.colio-theme-white .social .linkedin {
+    background: url(../images/linkedin.png) no-repeat center;
+}
+
+.colio-theme-white .social .twitter {
+    background: url(../images/twitter.png) no-repeat center;
+}
+
+/* Retina
+================================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    .colio-theme-white .colio-prev span {
+        background: url(../images/controls@2x.png) no-repeat 0 0;
+        background-size: 72px 24px;
+    }
+    .colio-theme-white .colio-next span {
+        background: url(../images/controls@2x.png) no-repeat -24px 0;
+        background-size: 72px 24px;
+    }
+    .colio-theme-white .colio-close span {
+        background: url(../images/controls@2x.png) no-repeat -48px 0;
+        background-size: 72px 24px;
+    }
+}
+
+/* Media queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width: 1024px) {
+    .colio-theme-white .main,
+    .colio-theme-white .side {
+        clear: both;
+        width: 100%;
+        padding: 0;
+    }
+    .colio-theme-white .side {
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+    .colio-theme-white .main {
+        margin-bottom: 0;
+    }
+    .colio-theme-white .colio-navigation {
+        top: 90px;
+        left: 40px;
+        right: auto;
+    }
+    .colio-theme-white .main h3 {
+        margin-top: 0;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (max-width: 479px) {
+    .colio-theme-white .colio-container {
+        padding: 30px;
+    }
+    .colio-theme-white .colio-navigation {
+        top: 90px;
+        left: 30px;
+        right: auto;
+    }
+}
+
+/*                  Skeleton.css
+================================================== 
+================================================== 
+================================================== 
+================================================== 
+================================================== */
+
+/* Table of Contents
+==================================================
+#Base 960 Grid
+#Tablet (Portrait)
+#Mobile (Portrait)
+#Mobile (Landscape)
+#Clearing */
+
+/* #Base 960 Grid
+================================================== */
+
+/* .container { position: relative; width: 100%; margin: 0 auto; padding: 0;border-top:1px solid #f0f0f0  } */
+
+.container .column,
+.container .columns {
+    float: left;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container .sixteen.columns {
+    width: 100%;
+    border: 0px solid #000;
+}
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+
+.container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/*
+Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row">
+*/
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.row:after,
+.clearfix:after {
+    clear: both;
+}
+
+.row,
+.clearfix {
+    zoom: 1;
+}
+
+/* Colio - Basic Styles
+===================================================================================================================== */
+
+/* Colio - Basic Styles
+================================================== */
+
+.colio {
+    position: relative;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.colio-container {
+    padding: 40px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.colio-content {
+    display: none;
+    overflow: hidden;
+}
+
+.colio-close,
+.colio-prev,
+.colio-next {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.colio-no-prev,
+.colio-no-next {
+    cursor: default;
+    opacity: 0.2;
+}
+
+/* navigation, close */
+
+.colio-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.colio-navigation {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.colio-navigation a {
+    margin-right: 5px;
+}
+
+/* placement */
+
+.colio-placement-inside,
+.colio-placement-before {
+    margin-bottom: 20px;
+}
+
+.colio-placement-after {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* jQuery FlexSlider - Basic Styles
+===================================================================================================================== */
+
+/* Browser Resets
+*********************************/
+
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+    outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider .slides>li {
+    display: none;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+/* Clearfix for the .slides element */
+
+.slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] .slides {
+    display: block;
+}
+
+* html .slides {
+    height: 1%;
+}
+
+/* No JavaScript Fallback */
+
+/* If you are not using another script, such as Modernizr, make sure you
+* include js that eliminates this class on page load */
+
+.no-js .slides>li:first-child {
+    display: block;
+}
+
+/*                  layout.css
+================================================== 
+================================================== 
+================================================== 
+================================================== 
+================================================== */
+
+/* Portfolio Section
+================================================== */
+
+/* portfolio list */
+
+.portfolio .list {
+    clear: both;
+}
+
+.portfolio .list li {
+    float: left;
+    margin: 0 0px 0 0;
+}
+
+.portfolio .list .thumb {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    overflow: hidden;
+    border: 0px solid #f0f0f0;
+    /*	border-right:0; border-top:0;*/
+}
+
+.portfolio .list .view {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    border: 0px solid #fff;
+    text-align: center;
+    border-radius: 0;
+    margin: auto;
+    line-height: 0;
+    padding: 0;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s, visibility 0s linear .3s;
+    -moz-transition: opacity 0.3s, visibility 0s linear .3s;
+    -o-transition: opacity 0.3s, visibility 0s linear .3s;
+    transition: opacity 0.3s, visibility 0s linear .3s;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.portfolio .list h4 {
+    text-align: center;
+}
+
+.portfolio .list h4 a {
+    text-decoration: none;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+    /* Netscape */
+    -moz-opacity: 0;
+    /* Safari 1.x */
+    -khtml-opacity: 0;
+    /* Good browsers */
+    opacity: 0;
+}
+
+.portfolio .colio-active-item h4 a {
+    background: none;
+    padding: 2px 10px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    /* IE 5-7 */
+    filter: alpha(opacity=100);
+    /* Netscape */
+    -moz-opacity: 1;
+    /* Safari 1.x */
+    -khtml-opacity: 1;
+    /* Good browsers */
+    opacity: 1;
+}
+
+.portfolio .list p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.3em;
+}
+
+.portfolio .list .view .button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    letter-spacing: 1px;
+    cursor: url(../images/plus.cur), crosshair;
+    cursor: url(../images/plus.png) 40 40, crosshair;
+}
+
+.button h6 {
+    color: #444 !important;
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 50px;
+    display: none
+}
+
+h6 em {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/* End Work Page
+================================================== */
+
+/* buttons */
+
+.button {
+    margin: 0 0 14px;
+    padding: 7px 13px;
+    border: none;
+    background: transparent;
+    color: #e44847 !important;
+    font-size: 1em;
+    line-height: 21px;
+    text-shadow: none;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+}
+
+.button:hover {
+    border: 0px solid #ECECEC;
+    background: transparent;
+    color: #ff5452 !important;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+}
+
+.button:active,
+input[type="button"]:active {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+}
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers)*/
+
+@media only screen and (max-width: 1024px) {
+    .resume {
+        display: block
+    }
+    #pdf-review {
+        display: block
+    }
+    iframe {
+        display: none
+    }
+    /* main bg*/
+}
+
+@media only screen and (min-width: 180px) and (max-width: 800px) {
+    .portfolio .list li {
+        float: left;
+        margin: 0 0px 0 0;
+        width: 100%;
+    }
+    .portfolio .list .thumb {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+        overflow: hidden;
+        border: 0px solid #f0f0f0;
+        border-right: 0;
+        border-bottom: 1px solid #f0f0f0;
+        border-left: 0;
+    }
+    .portfolio .list .thumb img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        vertical-align: top;
+    }
+    .resume {
+        display: block
+    }
+    #pdf-review {
+        display: block
+    }
+    iframe {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 1055px) {
+    /*what i love to do */
+    #myskills {
+        max-width: 100%;
+        width: 100%;
+    }
+    #holderskills {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+    #webskills {
+        width: 100%;
+        max-width: 100%
+    }
+    #graphicskills {
+        width: 100%;
+        max-width: 100%
+    }
+    /*form*/
+    #holderform {
+        border: 0px
+    }
+    #solidline {
+        display: none
+    }
+    #mailform {
+        width: 100%;
+        padding-top: 0px;
+        border-top: 0px dotted #333;
+    }
+    #contactinfo {
+        width: 100%;
+        border: 0px solid red;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 20px
+    }
+    #mypic {
+        position: relative;
+        background: none;
+        color: #fff;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        border: 0px solid #000;
+        float: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 15px
+    }
+    #myinfo {
+        position: relative;
+        background: none;
+        color: #fff;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        border: 0px solid #000;
+        float: left;
+        letter-spacing: 2px;
+        padding-top: 20px;
+        padding-left: 15px
+    }
+    h3 {
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    /* H1 underlogo*/
+    .underlogo p {
+        color: #060606;
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 103px;
+        text-align: center;
+        z-index: 9999999999 !important;
+    }
+    .underlogo em {
+        color: #060606;
+        font-size: 11px;
+    }
+    /* What I  do */
+    #webskills {
+        height: auto;
+        padding-top: 20px;
+    }
+    #graphicskills {
+        height: auto;
+        padding-top: 40px;
+    }
+    #webskills img {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #graphicskills img {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    /* Form */
+    #mailform {
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        border-top: 0px dotted #333;
+        padding-left: 0px
+    }
+    #contactinfo {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px
+    }
+    #myinfo {
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding-top: 20px;
+        padding-left: 0px
+    }
+    #mypic {
+        width: 100%;
+        height: auto;
+        padding-top: 0
+    }
+    h3 {
+        text-align: center
+    }
+    #holderform {
+        border: 0px
+    }
+}
+
+/*          idangerous.swiper.css
+================================================== 
+================================================== 
+================================================== 
+================================================== 
+================================================== */
+
+/*
+* Swiper 2.7.0
+* Mobile touch slider and framework with hardware accelerated transitions
+*
+* http://www.idangero.us/sliders/swiper/
+*
+* Copyright 2010-2014, Vladimir Kharlampidi
+* The iDangero.us
+* http://www.idangero.us/
+*
+* Licensed under GPL & MIT
+*
+* Released on: August 30, 2014
+*/
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+
+/* Syles */
+
+.device {
+    width: 376px;
+    max-width: 100%;
+    height: 240px;
+    top: 54px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 0px solid red;
+    position: relative;
+    box-shadow: 0px 0px 0px #000;
+}
+
+.device .arrow-left {
+    background: url(img/arrows.png) no-repeat left top;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -15px;
+    width: 17px;
+    height: 30px;
+}
+
+.device .arrow-right {
+    background: url(img/arrows.png) no-repeat left bottom;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
+    width: 17px;
+    height: 30px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 0px solid red;
+}
+
+.content-slide {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 160%;
+    padding: 20px;
+    height: 100%;
+    color: #fff;
+    background: #333;
+    border: 0px solid red;
+    text-align: left;
+}
+
+.title {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: monospace, Courier, Monacos;
+}
+
+.text {
+    color: #fff;
+    line-height: 1.6em;
+    font-size: 13px;
+    font-family: monospace, Courier, Monacos;
+    width: 300px;
+    max-width: 70%;
+}
+
+.swipetext {
+    max-width: 630px;
+    width: 100%;
+    height: auto;
+    border: 0px solid #000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.swipetext:after {
+    content: "\2192";
+    position: relative;
+    top: -1px;
+    margin-left: 3px;
+    font-family: monospace, Courier, Monacos;
+}
+
+.swipetext:before {
+    content: "\2190";
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
+}
+
+.pagination {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 200px;
+    z-index: 99999999 !important
+}
+
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #999;
+    box-shadow: 0px 1px 2px #555 inset;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.swiper-active-switch {
+    background: #fff;
+}
+
+/* blinking  Web Development
+* --------------------------------------- */
+
+#blink {
+    position: relative;
+    z-index: 500;
+    width: 100%;
+    height: 14px;
+    border-left: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    left: 90px;
+    right: 0;
+    margin-top: -40px;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    /* IE 5-7 */
+    filter: alpha(opacity=100);
+    opacity: 100;
+    display: none;
+}
+
+/* blinking  Graphic design
+* --------------------------------------- */
+
+#blink2 {
+    position: relative;
+    z-index: 500;
+    width: 100%;
+    height: 14px;
+    border-left: 1px solid #fff;
+    margin-left: 220px;
+    margin-right: auto;
+    left: 0px;
+    right: 0;
+    margin-top: -40px;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    /* IE 5-7 */
+    filter: alpha(opacity=100);
+    opacity: 100;
+    display: none;
+}
+
+@media only screen and (max-width: 1055px) {
+    .device {
+        width: 376px;
+        max-width: 100%;
+        height: 240px;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0px solid red;
+        position: relative;
+        box-shadow: 0px 0px 0px #000;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .device {
+        width: 376px;
+        max-width: 100%;
+        height: 210px;
+        top: 60px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0px solid red;
+        position: relative;
+    }
+    .title {
+        font-size: 11px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-family: monospace, Courier, Monacos;
+    }
+    .text {
+        color: #fff;
+        line-height: 1.5em;
+        font-size: 11px;
+        font-family: monospace, Courier, Monacos;
+        width: 300px;
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .device {
+        width: 376px;
+        max-width: 100%;
+        height: 180px;
+        top: 60px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0px solid red;
+        position: relative;
+        box-shadow: 0px 0px 0px #000;
+    }
+    .title {
+        font-size: 11px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-family: monospace, Courier, Monacos;
+    }
+    .text {
+        color: #fff;
+        line-height: 1.5em;
+        font-size: 11px;
+        font-family: monospace, Courier, Monacos;
+        width: 300px;
+        max-width: 70%;
+    }
+    /* blinking  Web Development
+* --------------------------------------- */
+    #blink,
+    #blink2 {
+        border-left: 0px solid #fff;
+    }
+}
+
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    -webkit-transition-property: -webkit-transform, left, top;
+    -webkit-transition-duration: 0s;
+    -webkit-transform: translate3d(0px, 0, 0);
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: -moz-transform, left, top;
+    -moz-transition-duration: 0s;
+    -moz-transform: translate3d(0px, 0, 0);
+    -moz-transition-timing-function: ease;
+    -o-transition-property: -o-transform, left, top;
+    -o-transition-duration: 0s;
+    -o-transform: translate3d(0px, 0, 0);
+    -o-transition-timing-function: ease;
+    -o-transform: translate(0px, 0px);
+    -ms-transition-property: -ms-transform, left, top;
+    -ms-transition-duration: 0s;
+    -ms-transform: translate3d(0px, 0, 0);
+    -ms-transition-timing-function: ease;
+    transition-property: transform, left, top;
+    transition-duration: 0s;
+    transform: translate3d(0px, 0, 0);
+    transition-timing-function: ease;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.swiper-free-mode>.swiper-wrapper {
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+
+.swiper-wp8-horizontal {
+    touch-action: pan-y;
+    -ms-touch-action: pan-y;
+}
+
+.swiper-wp8-vertical {
+    touch-action: pan-x;
+    -ms-touch-action: pan-x;
+}
+
+/* ===============================================================
+Your custom styles, here you need to specify container's and slide's
+sizes, pagination, etc.
+================================================================*/
+
+/* Specify Swiper's Size: */
+/*
+.swiper-container {
+    width:200px;
+    height: 100px;
+}
+*/
+
+/* Specify Slides's Size: */
+/*
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+*/
+
+/* Specific active slide styling: */
+/*
+.swiper-slide-active {
+}
+*/
+
+/* Specific visible slide styling: */
+/*
+.swiper-slide-visible {
+}
+*/
+
+/* ===============================================================
+Pagination Styles
+================================================================*/
+
+/* Stylize pagination button: */
+/*
+.swiper-pagination-switch {
+}
+*/
+
+/* Specific active button style: */
+/*
+.swiper-active-switch {
+}
+*/
+
+/* Specific visible button style: */
+/*
+.swiper-visible-switch {
+}
+*/

@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+.vs/
+dev/img/Presentation1.pptx
+dev/img/Screenshot_20170207-062658.png
+dev/img/Screenshot_20170207-062746.png
